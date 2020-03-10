@@ -1,0 +1,146 @@
+body {
+  /*margin-top: 0;
+  margin-right: 0;*/
+  margin: 0;
+  border: 0;
+  width: 100%;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  /*
+  font-family: 'Merriweather', serif;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Josefin Slab', serif;
+  */
+}
+
+h1 {
+  color: #fa877f;
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%
+}
+
+.head-container {
+  height: 80px;
+  width: 100%;
+  top: 0;
+  background-color: #434e52;
+  position: fixed;
+}
+
+.top-container {
+  border: 0;
+  background-color: #beebe9;
+  padding-top: 80px;
+  width: 100%;
+  /*position: relative; */
+}
+
+.top-clound {
+  position: absolute;
+  top: 50px;
+  left: 70%;
+}
+
+.middle-container {
+  border: 0;
+  background-color: #9be3de;
+  /*padding: 10px;*/
+  width: 100%;
+}
+
+.mountain {
+  position: relative;
+  padding-top: 20px;
+  /*left: 50px;*/
+  height: 260px;
+}
+
+.middle-clound {
+  position: absolute;
+  top: 200px;
+  left: 20%;
+}
+
+.bottom-container {
+  border: 0;
+  background-color: #00918e;
+  padding-top: 20px;
+  /*padding: 10px; */
+  width: 100%;
+}
+
+.footer-link {
+  background-color: #5b8c85;
+  width: 80px;
+  display: inline-block;
+  text-align: center;
+}
+
+.inline {
+  background-color: #eadea6;
+  width: 80px;
+  display: inline-block;
+  text-align: center;
+}
+
+.red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  display:inline-block;
+}
+
+.blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  display: inline-block;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 120px;
+  display: inline-block;
+}
+
+.green {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 20px;
+  display: inline-block;
+}
+
+.my-pic {
+  height: 200px;
+  padding-top: 10px;
+  border-radius: 100%;
+}
+
+.my-skill {
+  height: 200px;
+  padding-top: 10px;
+}
