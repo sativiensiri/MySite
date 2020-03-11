@@ -1,14 +1,9 @@
 body {
-  /*margin-top: 0;
-  margin-right: 0;*/
-  margin: 0;
-  border: 0;
-  width: 100%;
+  margin-top: 0;
+  margin-right: 0;
   text-align: center;
   font-family: 'Josefin Slab', serif;
-
   /*
-  font-weight: bold;
   font-family: 'Merriweather', serif;
   font-family: 'Sacramento', cursive;
   font-family: 'Montserrat', sans-serif;
@@ -20,31 +15,14 @@ h1 {
   color: #fa877f;
   margin: 0 auto 0 auto;
   font-family: 'Sacramento', cursive;
-  font-size: 5.625rem;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  color: #5d5b6a;
-  margin-bottom: 0px;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  color: #5d5b6a;
-  font-weight: normal;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%
 }
 
 .head-container {
@@ -60,72 +38,52 @@ hr {
   background-color: #beebe9;
   padding-top: 80px;
   width: 100%;
-  /*position: relative; */
+  position: relative;
 }
 
 .top-clound {
   position: absolute;
   top: 50px;
-  left: 70%;
+  left: 75%;
 }
 
 .middle-container {
   border: 0;
   background-color: #9be3de;
-  /*padding: 10px;*/
+  padding: 10px;
   width: 100%;
 }
 
 .mountain {
   position: relative;
-  padding-top: 20px;
-  /*left: 50px;*/
-  height: 260px;
+  left: 50px;
 }
 
 .middle-clound {
   position: absolute;
   top: 200px;
-  left: 20%;
+  left: 28%;
 }
 
 .bottom-container {
   border: 0;
   background-color: #00918e;
-  padding: 10px 0 10px;
-  /*padding: 10px; */
-  width: 100%;
-  font-size: 20px;
+  padding: 10px;
+  width: 30%;
 }
 
 .footer-link {
-  /*background-color: #5b8c85;*/
+  background-color: #5b8c85;
   width: 80px;
   display: inline-block;
   text-align: center;
-  margin: 10px 10px;
 }
-
-.footer-link:hover {
-  color: #ffd868;
-}
-
-.profile {
-  text-align: center;
-}
-/*
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: center;
-}*/
 
 .inline {
-  /*background-color: #eadea6;*/
+  background-color: #eadea6;
   width: 80px;
   display: inline-block;
   text-align: center;
-  font-weight: bold;
 }
 
 .red {
@@ -160,30 +118,4 @@ hr {
   position: absolute;
   right: 20px;
   display: inline-block;
-}
-
-.my-pic {
-  height: 200px;
-  padding-top: 15px;
-  border-radius: 100%;
-}
-
-.my-skill {
-  height: 220px;
-  padding-top: 10px;
-}
-
-.intro {
-  font-size: 18px;
-  width: 80%;
-  margin: 15px auto 10px;
-}
-
-.cnt-btn {
-  font-weight: bold;
-  margin: 20px auto 20px;
-}
-
-.cnt-btn:hover {
-  color: #fa877f;
 }
